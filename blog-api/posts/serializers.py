@@ -11,4 +11,5 @@ class PostSerializer(serializers.ModelSerializer):
             "author",
             "created_at",
         )
+        
         model = Post
